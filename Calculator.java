@@ -46,6 +46,9 @@
     float division(float operand1,float operand2){
         return(operand1/operand2);
     }
+    float square(float operand1){
+        return(operand1*operand1);
+    }
  /**
   * The main function creates an instance of the Calculator class and performs addition, subtraction,
   * multiplication, and division operations on two operands.
@@ -58,5 +61,6 @@
         System.out.println("Difference"+c.subtraction(operand1, operand2));
         System.out.println("Product:"+c.multiplication(operand1, operand2));
         System.out.println("Quotient:"+c.division(operand1, operand2));
+        System.out.println("Square:"+c.square(operand1));
     }
 }
